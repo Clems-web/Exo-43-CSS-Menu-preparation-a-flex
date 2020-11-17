@@ -13,6 +13,9 @@ body {
     margin-top: 4rem;
 }
 
+#cadreparent i {
+    display: none;
+}
 ul li, a {
     font-size: 4rem;
     color: blanchedalmond;
@@ -55,21 +58,28 @@ a {
     background-color: darkslategrey;
 }
 
+i {
+    font-size: 5rem;
+    color: blanchedalmond;
+    display: block;
+}
 @media screen and (max-width: 600px){
     #cadreparent {
         margin: 0;
         padding: 0;
-    }
-    ul li {
-        font-size: 4rem;
-        color: blanchedalmond;
-        list-style-type: none;
-        border-radius: 1rem;
         width: 100%;
+    }
+    #cadreparent i {
         display: block;
     }
     a {
-        margin-left: 33%;
+        display: none;
     }
-
+    nav:hover a, nav:hover li {
+        display: block;
+        width: 20%;
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+    }
 }
