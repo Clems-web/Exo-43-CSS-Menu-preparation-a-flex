@@ -83,3 +83,13 @@ i {
         padding: 0;
     }
 }
+
+@media screen and (max-width: 350px) {
+    nav:hover a, nav:hover li {
+        display: block;
+        width: 20%;
+        font-size: 1.5rem;
+        margin-left: 10%;
+        padding: 0;
+    }
+}
