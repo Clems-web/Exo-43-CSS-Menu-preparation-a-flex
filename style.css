@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+#cadreparent {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+ul li, a {
+    font-size: 4rem;
+    color: blanchedalmond;
+    list-style-type: none;
+    border-radius: 1rem;
+    display: inline-block;
+    width: 16.6%;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 25%;
+}
+
+#Menu {
+    background-color: darkgrey;
+}
+
+#Youtube {
+    background-color: red;
+}
+
+#Google {
+    background-color: lightsteelblue;
+}
+
+#GitHub {
+    background-color: black;
+}
+
+#Marmiton {
+    background-color: darkorange;
+}
+
+#Netflix {
+    background-color: darkred;
+}
+
+#Scantrad {
+    background-color: darkslategrey;
+}
+
+@media screen and (max-width: 600px){
+    #cadreparent {
+        margin: 0;
+        padding: 0;
+    }
+    ul li {
+        font-size: 4rem;
+        color: blanchedalmond;
+        list-style-type: none;
+        border-radius: 1rem;
+        width: 100%;
+        display: block;
+    }
+    a {
+        margin-left: 33%;
+    }
+
+}
