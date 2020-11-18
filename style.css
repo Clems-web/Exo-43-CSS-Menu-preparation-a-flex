@@ -92,4 +92,9 @@ i {
         margin-left: 10%;
         padding: 0;
     }
+    nav:hover i {
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        margin-left: 10%;
+    }
 }
